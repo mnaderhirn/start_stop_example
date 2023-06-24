@@ -1,0 +1,17 @@
+
+**/html
+**/rst
+**/pdf
+
+*.html
+*.pdf
+
+*.png
+*.jpg
+*.gif
+
+
+*.xlsx
+*.docx
+
+*.pyc

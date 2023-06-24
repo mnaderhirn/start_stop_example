@@ -1,0 +1,87 @@
+[NEEDS] {
+    TITLE: Start Stop example
+
+    [SECTION] {
+        TITLE: Stakeholder
+
+        [NEED] {
+            UID: Stake-0001
+            TITLE: User
+            DESCRIPTION: """ The user want the good delievered by the vehicle """
+            documented in NA
+            satisfied by NA
+            validated by NA
+        }
+
+        [NEED] {
+            UID: Stake-0002
+            TITLE: Facility owner
+            DESCRIPTION: """ The facility owner privdes the facility and operates the vehicle. """
+            documented in NA
+            satisfied by NA
+            validated by NA
+        }
+
+    }
+
+    [SECTION] {
+        TITLE: Stakeholder needs
+
+        [SUBSECTION] {
+            TITLE: User
+
+            [NEED] {
+                UID: User-0001
+                TITLE: Safe handling
+                DESCRIPTION_EARS: """ The 'vehicle' shall 'handle my goods safely'. """
+                documented in NA
+                satisfied by NA
+                validated by NA
+            }
+    
+            [NEED] {
+                UID: User-0002
+                TITLE: Fast handling
+                DESCRIPTION_EARS: """ The 'vehicle' shall 'deliever the goods as fast as possible'. """
+                documented in NA
+                satisfied by NA
+                validated by NA
+            }
+
+        }
+
+        [SUBSECTION] {
+            TITLE: Fascility owner
+
+            [NEED] {
+                UID: Facil-0001
+                TITLE: Safe handling
+                DESCRIPTION_EARS: """ The 'vehicle' shall 'provide goods in a safe manner'. """
+                documented in NA
+                satisfied by NA
+                validated by NA
+            }
+    
+            [NEED] {
+                UID: Facil-0002
+                TITLE: Fast handling
+                DESCRIPTION_EARS: """ The 'vehicle' shall 'deliever the goods as fast as possible from A to B'. """
+                documented in NA
+                satisfied by NA
+                validated by NA
+            }
+
+            [NEED] {
+                UID: Facil-0003
+                TITLE: Fast handling
+                DESCRIPTION_EARS: """ The 'vehicle' shall 'drive without colliding with the facility'. """
+                documented in NA
+                satisfied by NA
+                validated by NA
+            }
+
+        }
+
+    }
+
+}
