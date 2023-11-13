@@ -1,8 +1,24 @@
 [SYSTEM REQUIREMENTS] {
     TITLE: Prelimiary System Requirements
     
-    [SYSTEM_REQUIREMENTS] {
-        
+    [SYSTEM REQUIREMENT] {
+        UID: SYS-0001
+        TITLE: Good transport
+        DESCRIPTION_EARS: """ The 'vehicle' shall 'transport goods from A ot B'. """
+        documented in NA
+        satisfies NA
+        satisfied by NA
+        verified by NA
+    }
+
+    [SYSTEM REQUIREMENT] {
+        UID: SYS-0002
+        TITLE: Safe operation
+        DESCRIPTION_EARS: """ The 'vehicle' shall 'operate safely without colliding with the facility'. """
+        documented in NA
+        satisfies NA
+        satisfied by NA
+        verified by NA
     }
 
 }

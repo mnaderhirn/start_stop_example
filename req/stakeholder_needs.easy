@@ -11,6 +11,7 @@
             documented in NA
             satisfied by NA
             validated by NA
+            linked to Capella: capella/start_stop/start_stop.aird - oa
         }
 
         [NEED] {
@@ -20,6 +21,7 @@
             documented in NA
             satisfied by NA
             validated by NA
+            lin
         }
 
     }
@@ -73,7 +75,7 @@
 
             [NEED] {
                 UID: Facil-0003
-                TITLE: Fast handling
+                TITLE: No collision with facility
                 DESCRIPTION_EARS: """ The 'vehicle' shall 'drive without colliding with the facility'. """
                 documented in NA
                 satisfied by NA
