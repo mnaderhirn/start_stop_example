@@ -1,0 +1,43 @@
+[SYSTEM REQUIREMENTS] {
+    TITLE: Start Stop example - System Requirements
+
+    [SECTION] {
+        TITLE: Functional requirements
+
+        [SYSTEM REQUIREMENT] {
+            UID: FUNC-0001
+            TITLE: Safe good handling
+            DESCRIPTION_EARS: """ The 'vehicle' shall 'handle my goods safely'. """
+            satisfies stakeholder_needs.easy - User-0001
+            satisfies stakeholder_needs.easy - Facil-0001
+            satisfied by NA
+            verified by NA
+        }
+
+        [SYSTEM REQUIREMENT] {
+            UID: FUNC-0002
+            TITLE: Fast delivery
+            DESCRIPTION_EARS: """ The 'vehicle' shall 'deliever the goods as fast as possible from A to B'. """
+            satisfies stakeholder_needs.easy - User-0002
+            satisfies stakeholder_needs.easy - Facil-0002
+            satisfied by NA
+            verified by NA
+        }
+
+        [SYSTEM REQUIREMENT] {
+            UID: FUNC-0003
+            TITLE: No collision
+            DESCRIPTION_EARS: """ The 'vehicle' shall 'drive without colliding with the facility'. """
+            satisfies stakeholder_needs.easy - Facil-0003
+            satisfied by NA
+            verified by NA
+        }
+
+    }
+
+    [SECTION] {
+        TITLE: Non-Functional requirements
+
+    }
+
+}

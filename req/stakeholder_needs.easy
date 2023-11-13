@@ -16,7 +16,7 @@
         [NEED] {
             UID: Stake-0002
             TITLE: Facility owner
-            DESCRIPTION: """ The facility owner privdes the facility and operates the vehicle. """
+            DESCRIPTION: """ The facility owner provides the facility and operates the vehicle. """
             documented in NA
             satisfied by NA
             validated by NA
@@ -35,7 +35,7 @@
                 TITLE: Safe handling
                 DESCRIPTION_EARS: """ The 'vehicle' shall 'handle my goods safely'. """
                 documented in NA
-                satisfied by NA
+                satisfied by system_requirements.easy - FUNC-0001
                 validated by NA
             }
     
@@ -44,7 +44,7 @@
                 TITLE: Fast handling
                 DESCRIPTION_EARS: """ The 'vehicle' shall 'deliever the goods as fast as possible'. """
                 documented in NA
-                satisfied by NA
+                satisfied by system_requirements.easy - FUNC-0002
                 validated by NA
             }
 
@@ -58,7 +58,7 @@
                 TITLE: Safe handling
                 DESCRIPTION_EARS: """ The 'vehicle' shall 'provide goods in a safe manner'. """
                 documented in NA
-                satisfied by NA
+                satisfied by system_requirements.easy - FUNC-0001
                 validated by NA
             }
     
@@ -67,16 +67,16 @@
                 TITLE: Fast handling
                 DESCRIPTION_EARS: """ The 'vehicle' shall 'deliever the goods as fast as possible from A to B'. """
                 documented in NA
-                satisfied by NA
+                satisfied by system_requirements.easy - FUNC-0002
                 validated by NA
             }
 
             [NEED] {
                 UID: Facil-0003
-                TITLE: Fast handling
+                TITLE: No collision
                 DESCRIPTION_EARS: """ The 'vehicle' shall 'drive without colliding with the facility'. """
                 documented in NA
-                satisfied by NA
+                satisfied by system_requirements.easy - FUNC-0003
                 validated by NA
             }
 
