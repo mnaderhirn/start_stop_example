@@ -1,0 +1,42 @@
+[VERIFICATION REQUIREMENTS] {
+    TITLE: System qualification
+
+    [SECTION] {
+        TITLE: Functional requirements
+
+        [VERIFICATION REQUIREMENT] {
+            UID: SYSV-0001
+            TITLE: Safe good handling verification test
+            INITIAL CONDITION: """ The good is on the floor of the storage location. """
+            ACTION: """ The vehcile shall pickup the good and drive it from the storage location to the pickup location without 
+            damaging the good. At the pickup location the vehicle shall place the good on the floor. """
+            FINAL CONDITION: """ The good is at the floor of the pickup location. """
+            verifies system_requirements.easy - FUNC-0001
+            linked to filename
+        }
+
+        [VERIFICATION REQUIREMENT] {
+            UID: SYSV-0002
+            TITLE: Fast delivery verification test
+            INITIAL CONDITION: """ The customer wants to pickup the good at the pickup location. """
+            ACTION: """ The customer inserts the good number for pickup. The vehicle shall deliver the good within 1 min for pickup 
+            to the pickup location. """
+            FINAL CONDITION: """ The good is ready for pickup in front of the customer at the pickup location in less than 1 min. """
+            verifies system_requirements.easy - FUNC-0002
+            linked to filename
+        }
+
+        [VERIFICATION REQUIREMENT] {
+            UID: SYSV-0003
+            TITLE: No collision verification test
+            INITIAL CONDITION: """ The shall start to drive at a random starting location in the storage area or pickup location. """
+            ACTION: """ The vehicle shall drive with a random velocity, but limited to maximum velocity v_max = 10 mps, from the starting
+            location to a random final location in the storage area while random other traffic is appearing. """
+            FINAL CONDITION: """ The vehicle shall reach the final location without collision within 100 simulation runs. """
+            verifies system_requirements.easy - FUNC-0003
+            linked to filename
+        }
+
+    }
+
+}

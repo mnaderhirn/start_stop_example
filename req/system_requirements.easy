@@ -7,11 +7,11 @@
         [SYSTEM REQUIREMENT] {
             UID: FUNC-0001
             TITLE: Safe good handling
-            DESCRIPTION_EARS: """ The 'vehicle' shall 'handle my goods safely'. """
+            DESCRIPTION_EARS: """ The 'vehicle' shall 'handle goods safely'. """
             satisfies stakeholder_needs.easy - User-0001
             satisfies stakeholder_needs.easy - Facil-0001
             satisfied by NA
-            verified by NA
+            verified by system_qualification.easy - SYSV-0001
         }
 
         [SYSTEM REQUIREMENT] {
@@ -21,7 +21,7 @@
             satisfies stakeholder_needs.easy - User-0002
             satisfies stakeholder_needs.easy - Facil-0002
             satisfied by NA
-            verified by NA
+            verified by system_qualification.easy - SYSV-0002
         }
 
         [SYSTEM REQUIREMENT] {
@@ -30,7 +30,8 @@
             DESCRIPTION_EARS: """ The 'vehicle' shall 'drive without colliding with the facility'. """
             satisfies stakeholder_needs.easy - Facil-0003
             satisfied by NA
-            verified by NA
+            verified by system_qualification.easy - SYSV-0003
+            linked to Capella: capella/start_stop/start_stop.aird - sa
         }
 
     }

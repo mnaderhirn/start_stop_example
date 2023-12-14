@@ -164,3 +164,5 @@
 2023-07-09 13:25:20,894;Capella;5.2.0.202111301257;Open+Representation;;OK;
 2023-07-11 09:07:31,632;Capella;5.2.0.202111301257;Open+Representation;;;
 2023-07-11 09:07:34,687;Capella;5.2.0.202111301257;Open+Representation;;OK;
+2023-11-13 18:44:49,511;Capella;5.1.0.202106150755;Open+Session;start_stop.aird;;
+2023-11-13 18:44:50,111;Capella;5.1.0.202106150755;Open+Session;start_stop.aird;ERROR;
